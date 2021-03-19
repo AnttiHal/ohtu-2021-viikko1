@@ -108,6 +108,6 @@ public class VarastoTest {
     public void toStringToimii() {
         varasto.lisaaVarastoon(8);
         // varastossa pitäisi olla tilaa 2
-        assertEquals("saldo = 8.0, vielä tilaa 2.0", varasto.toString());
+        assertEquals("saldo = 8.0 , vielä tilaa 2.0", varasto.toString());
     }
 }
